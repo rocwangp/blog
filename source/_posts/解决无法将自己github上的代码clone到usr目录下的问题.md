@@ -17,6 +17,8 @@ Linux下代码存在的位置有两种
 * ~/.ssh，保存当前用户的public key
 * /root/.ssh，保存root用户的public key
 
+<!--more-->
+
 
 
 ## 将代码clone到/home目录下
