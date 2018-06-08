@@ -14,7 +14,7 @@ template <typename T, typename... Args>
 struct contains : public std::false_type {};
 ```
 
-接着进行特化，将可变模板参数中的类型逐个和目标类型进行比较，直到类型相同或者模板参数列表为空
+接着进行偏特化，将可变模板参数中的类型逐个和目标类型进行比较，直到类型相同或者模板参数列表为空
 
 ```c++
 template <typename T, typename U, typename... Args>

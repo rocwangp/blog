@@ -28,7 +28,7 @@ struct function_traits;
 
 
 
-## 针对函数指针进行模板特化
+## 针对函数指针进行偏特化
 
 
 
@@ -108,7 +108,7 @@ struct function_traits<R(Args...)> : public function_traits_helper<R, Args...>
 
 
 
-## 针对lambda进行特化
+## 针对lambda进行偏特化
 
 假设在main函数中定义一个匿名函数lambda，通过模板参数类型推导判断它的类型
 
